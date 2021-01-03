@@ -61,14 +61,14 @@
     //   });
     // }
 
-    // if ('serviceWorker' in navigator) {
-    //   navigator.serviceWorker.register('serviceWorker.js')
-    //   .then(reg => {
-    //     console.log('Registered service worker');
-    //   }).catch(err => {
-    //     console.log('Register service worker failed', err);
-    //   });
-    // }
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('serviceWorker.js')
+      .then(reg => {
+        console.log('Registered service worker');
+      }).catch(err => {
+        console.log('Register service worker failed', err);
+      });
+    }
   </script>
 
 </html>
