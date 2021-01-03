@@ -6,27 +6,27 @@ interface IProps {
   // value: number;
 }
 interface IState {
-  inputNum: number;
+  inputNum: string;
   answer: string;
 }
 
 class PrimeForm extends React.Component<IProps, IState> {
   constructor(props: IProps) {
     super(props);
-    this.state = {inputNum: 100,answer: ''};
+    this.state = {inputNum: '100',answer: ''};
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   handleChange(e: React.ChangeEvent<HTMLInputElement>) {
     this.setState({
-      inputNum: +e.target.value
+      inputNum: e.target.value
     });
   }
 
   handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    const num = this.state.inputNum
+    const num: number = +this.state.inputNum
     
     // // Naive way to check a prime
     // function isPrime(number) {

@@ -5,8 +5,8 @@ interface IProps {
   // value: number;
 }
 interface IState {
-  inputFirstNum: number;
-  inputLastNum: number;
+  inputFirstNum: string;
+  inputLastNum: string;
   answer: (string | number)[];
 }
 
@@ -14,8 +14,8 @@ class PrimesForm extends React.Component<IProps, IState> {
   constructor(props: IProps) {
     super(props);
     this.state = {
-      inputFirstNum: 1,
-      inputLastNum: 1000,
+      inputFirstNum: '1',
+      inputLastNum: '1000',
       answer: ['Primes']
     };
     // this.onFirstNumChange = this.onFirstNumChange.bind(this);
@@ -36,11 +36,10 @@ class PrimesForm extends React.Component<IProps, IState> {
   //   })
   // }
 
-  handleChange(e: React.ChangeEvent<HTMLInputElement>) {
+  handleChange(e: any) {
     this.setState({
-      inputFirstNum: +e.target.value,
-      inputLastNum: +e.target.value
-    });
+      [e.target.name]: e.target.value,
+    } as IState);
   }
 
   handleSubmit(e: React.FormEvent<HTMLFormElement>) {
@@ -81,11 +80,11 @@ class PrimesForm extends React.Component<IProps, IState> {
         <div>
           <input className="nambk-input" style={{width: '33%'}} 
                  type="number" min="1" max="9999999" aria-label="Input Number"
-                 value={this.state.inputFirstNum} onChange={this.handleChange} 
+                 value={this.state.inputFirstNum} onChange={this.handleChange.bind(this)} 
                  id="inputFirstNum" name="inputFirstNum" placeholder="Enter a number"/>
           <input className="nambk-input" style={{width: '33%'}} 
                  type="number" min="1" max="9999999" aria-label="Input Number"
-                 value={this.state.inputLastNum} onChange={this.handleChange} 
+                 value={this.state.inputLastNum} onChange={this.handleChange.bind(this)} 
                  id="inputLastNum" name="inputLastNum" placeholder="Enter a number"/>
           <input id="btnFindPrimes" className="nambk-btn nambk-btn-primary" 
                  type="submit" value="Go"/>
