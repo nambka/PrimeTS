@@ -1,13 +1,18 @@
 import { createGlobalStyle } from 'styled-components';
 
-const GlobalStyle = createGlobalStyle`
+// https://lewislbr.dev/blog/add-dark-mode-react-typescript-styled-components/
+// https://blog.ezrabowman.com/build-a-theme-switcher-in-react-using-styled-components-and-redux/
+// https://medium.com/rbi-tech/theme-with-styled-components-and-typescript-209244ec15a3
+
+export const GlobalStyle = createGlobalStyle`
   *,
   *::after,
   *::before {
     box-sizing: border-box;
   }
-
+  
   body {
+    /* background: ${(props: any) => props.theme.bodyBkg}; */
     background: ${({ theme }) => theme.bodyBkg};
     color: ${({ theme }) => theme.bodyTextColor};
     font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -51,4 +56,4 @@ const GlobalStyle = createGlobalStyle`
     box-shadow: ${({ theme }) => theme.resultBoxShadow};
   }
 `
-export default GlobalStyle;
+// export default GlobalStyle;
