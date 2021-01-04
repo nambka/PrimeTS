@@ -2,18 +2,23 @@ import React from 'react';
 import imgLogo from '../assets/images/logo.png';
 
 import { ThemeProvider } from 'styled-components';
-import themes, {useDarkMode} from '../service/theme';
-import GlobalStyle from '../service/theme/global';
+import {lightTheme, darkTheme, moonTheme, useDarkMode} from '../service/theme';
+import { GlobalStyle } from '../service/theme/global';
+
+declare module 'styled-components' {
+  type Theme = typeof lightTheme;
+  export interface DefaultTheme extends Theme {}
+}
 
 const Header = () => {
   const [theme, toggleTheme] = useDarkMode();
 
   var btnDarkModeClasses = 'btn btn-sm btn-icon';
   var btnDarkModeIcon = '';
-  if (theme == 'light') {
+  if (theme === 'light') {
     btnDarkModeClasses += ' btn-light';
     btnDarkModeIcon = 'fa fa-sun-o';
-  } else if (theme == 'dark') {
+  } else if (theme === 'dark') {
     btnDarkModeClasses += ' btn-dark';
     btnDarkModeIcon = 'fa fa-circle-o';
   } else {
@@ -22,7 +27,7 @@ const Header = () => {
   }
 
   return (
-  <ThemeProvider theme={theme === 'light' ? themes.lightTheme : (theme === 'dark' ? themes.darkTheme : themes.moonTheme)}>
+  <ThemeProvider theme={theme === 'light' ? lightTheme : (theme === 'dark' ? darkTheme : moonTheme)}>
     <GlobalStyle />
     <nav id="ac-localnav" className="js touch css-sticky ac-ln-sticking" lang="en-US" dir="ltr" role="navigation" aria-label="Local">
         <div className="ac-ln-wrapper">
