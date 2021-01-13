@@ -24,10 +24,6 @@ export const useDarkMode = () => {
     return [theme, toggleTheme];
 };
 
-// declare module 'styled-components' {
-//   type Theme = typeof lightTheme;
-//   export interface DefaultTheme extends Theme {}
-// }
 
 export const lightTheme = {
   bodyBkg: '#F7F8F9',
