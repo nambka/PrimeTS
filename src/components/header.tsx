@@ -1,34 +1,27 @@
 import React from 'react';
 import imgLogo from '../assets/images/logo.png';
 
-import { ThemeProvider } from 'styled-components';
-import {lightTheme, darkTheme, moonTheme, useDarkMode} from '../service/theme';
-import { GlobalStyle } from '../service/theme/global';
-
-declare module 'styled-components' {
-  type Theme = typeof lightTheme;
-  export interface DefaultTheme extends Theme {}
+interface IProps {
+  theme: any;
+  toggleTheme: any;
 }
 
-const Header = () => {
-  const [theme, toggleTheme] = useDarkMode();
+const Header = ({ theme, toggleTheme, ...props }: IProps) => {
 
   var btnDarkModeClasses = 'btn btn-sm btn-icon';
   var btnDarkModeIcon = '';
   if (theme === 'light') {
-    btnDarkModeClasses += ' btn-light';
-    btnDarkModeIcon = 'fa fa-sun-o';
+  btnDarkModeClasses += ' btn-light';
+  btnDarkModeIcon = 'fa fa-sun-o';
   } else if (theme === 'dark') {
-    btnDarkModeClasses += ' btn-dark';
-    btnDarkModeIcon = 'fa fa-circle-o';
+  btnDarkModeClasses += ' btn-dark';
+  btnDarkModeIcon = 'fa fa-circle-o';
   } else {
-    btnDarkModeClasses += ' btn-moon';
-    btnDarkModeIcon = 'fa fa-moon-o';
+  btnDarkModeClasses += ' btn-moon';
+  btnDarkModeIcon = 'fa fa-moon-o';
   }
-
+      
   return (
-  <ThemeProvider theme={theme === 'light' ? lightTheme : (theme === 'dark' ? darkTheme : moonTheme)}>
-    <GlobalStyle />
     <nav id="ac-localnav" className="js touch css-sticky ac-ln-sticking" lang="en-US" dir="ltr" role="navigation" aria-label="Local">
         <div className="ac-ln-wrapper">
             <div className="ac-ln-background"></div>
@@ -64,7 +57,8 @@ const Header = () => {
                         </div>
                         <div className="ac-ln-action ac-ln-action-button">
                             <a className="ac-ln-button mr-3" href="/nambk">Login </a>
-                            <button id="btnDarkMode" className={btnDarkModeClasses} onClick={() => toggleTheme} aria-label="Dark/Light Mode">
+                            <button id="btnDarkMode" className={btnDarkModeClasses} 
+                                    onClick={() => {toggleTheme(theme)}} aria-label="Dark/Light Mode">
                                 &nbsp;&nbsp;<i className={btnDarkModeIcon}></i></button>
                         </div>
                     </div>
@@ -72,7 +66,6 @@ const Header = () => {
             </div>
         </div>
     </nav> 
-  </ThemeProvider> 
   );
-};
+}
 export default Header;
