@@ -30,7 +30,7 @@ const Footer = ({ theme, toggleTheme }: IProps) => {
                         <p className="font-size-0-75">A brand new journey to the beautiful angles of this world. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
 
                         <div className="d-flex align-items-center">
-                            <a className="btn btn-xss btn-soft-light mr-2" href="/settings">
+                            <a className="btn btn-xss btn-soft-light mr-2" href="https://github.com/nambka/PrimeTS">
                                 <i className="fa fa-cogs mr-1"></i>Preferences
                             </a>
                             <button id="btnDarkModeFooter" data-toggle="tooltip" data-title="Day/Night Mode" 

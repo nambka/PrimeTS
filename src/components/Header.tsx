@@ -20,13 +20,13 @@ const Header = () => {
             <div className="ac-ln-background"></div>
             <div className="ac-ln-content">
                 <div className="ac-ln-title">
-                    <a className="border-radius-50" href="/nambk"><img src={imgLogo} alt="logo" /></a>
+                    <a className="border-radius-50" href="https://github.com/nambka/PrimeTS"><img src={imgLogo} alt="logo" /></a>
                 </div>
                 <div className="ac-ln-menu">
-                    <a href="/nambk" className="ac-ln-menucta-anchor ac-ln-menucta-anchor-open" id="ac-ln-menustate-open">
+                    <a href="https://github.com/nambka/PrimeTS" className="ac-ln-menucta-anchor ac-ln-menucta-anchor-open" id="ac-ln-menustate-open">
                         <span className="ac-ln-menucta-anchor-label">Local Nav Open Menu</span>
                     </a>
-                    <a href="/nambk" className="ac-ln-menucta-anchor ac-ln-menucta-anchor-close" id="ac-ln-menustate-close">
+                    <a href="https://github.com/nambka/PrimeTS" className="ac-ln-menucta-anchor ac-ln-menucta-anchor-close" id="ac-ln-menustate-close">
                         <span className="ac-ln-menucta-anchor-label">Local Nav Close Menu</span>
                     </a>
                     <div className="ac-ln-menu-tray">
@@ -35,10 +35,10 @@ const Header = () => {
                                 <span className="ac-ln-menu-link current" role="link" aria-disabled="true" aria-current="page">Home</span>
                             </li>
                             <li className="ac-ln-menu-item">
-                                <a href="/nambk" className="ac-ln-menu-link">Design</a>
+                                <a href="https://github.com/nambka/PrimeTS" className="ac-ln-menu-link">Design</a>
                             </li>
                             <li className="ac-ln-menu-item">
-                                <a href="/nambk" className="ac-ln-menu-link">Products</a>
+                                <a href="https://github.com/nambka/PrimeTS" className="ac-ln-menu-link">Products</a>
                             </li>
                         </ul>
                     </div>
@@ -49,7 +49,7 @@ const Header = () => {
                             </label>
                         </div>
                         <div className="ac-ln-action ac-ln-action-button">
-                            <a className="ac-ln-button mr-3" href="/nambk">Login </a>
+                            <a className="ac-ln-button mr-3" href="https://github.com/nambka/PrimeTS">Login </a>
                             {/* <button id="btnDarkMode" className={btnDarkModeClasses} 
                                     onClick={() => {toggleTheme(theme)}} aria-label="Dark/Light Mode">
                                 &nbsp;&nbsp;<i className={btnDarkModeIcon}></i></button> */}
