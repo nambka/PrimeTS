@@ -2,7 +2,12 @@
 Create a web application that takes in a number and returns to the user the highest prime number lower than the input number. For example an input of 55 would return 53. Treat this like a real production application that you would be proud of.
 
 [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](https://github.com/dwyl/repo-badges)
+[![Build Status](https://travis-ci.org/nambka/PrimeTS.png?branch=master)](https://travis-ci.org/nambka/PrimeTS)
+[![Documentation Status](https://readthedocs.org/projects/primets-2021/badge/?version=latest)](https://primets-2021.readthedocs.io/en/latest/?badge=latest)
 
+![npm](https://img.shields.io/npm/v/npm)
+![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
+[![HitCount](http://hits.dwyl.com/nambka/PrimeTS.svg)](http://hits.dwyl.com/nambka/PrimeTS)
 
 ### You will be graded on:
 - Performance of algorithm
