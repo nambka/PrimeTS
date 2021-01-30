@@ -249,8 +249,12 @@ a {
   background: rgba(248,249,250,.1);
   border-color: transparent;
 }
-.btn-soft-light[href]:hover, 
-.btn-soft-light[type].active, 
+button.btn-soft-light:hover, 
+button.btn-soft-light:active, 
+button.btn-soft-light:focus, 
+.btn-soft-light[href]:hover,  
+.btn-soft-light[href]:active,  
+.btn-soft-light[href]:focus,  
 .btn-soft-light[type]:active, 
 .btn-soft-light[type]:focus, 
 .btn-soft-light[type]:hover {
