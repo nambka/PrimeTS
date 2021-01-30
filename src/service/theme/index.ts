@@ -1,30 +1,3 @@
-import { useState, useEffect } from 'react';
-
-export const useDarkMode = () => {
-    const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
-    const toggleTheme = () => {
-      // theme === 'light' ? setTheme('dark') : setTheme('light')
-      if (theme === 'light') {
-        localStorage.setItem('theme', 'dark');
-        setTheme('dark');
-      } else if (theme === 'dark') {
-        localStorage.setItem('theme', 'moon');
-        setTheme('moon');
-      } else {
-        localStorage.setItem('theme', 'light');
-        setTheme('light');
-      }
-    };
-
-    useEffect(() => {
-      const localTheme = window.localStorage.getItem('theme');
-      localTheme && setTheme(localTheme);
-    }, []);
-    
-    return [theme, toggleTheme];
-};
-
-
 export const lightTheme = {
   bodyBkg: '#F7F8F9',
   bodyTextColor: '#353637',
