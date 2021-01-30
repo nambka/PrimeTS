@@ -1,4 +1,3 @@
-import React from 'react';
 import imgSnapSeed from '../assets/images/snapseed256.png';
 
 interface IProps {
@@ -6,7 +5,7 @@ interface IProps {
   toggleTheme: any;
 }
 
-const Footer = ({ theme, toggleTheme, ...props }: IProps) => {
+const Footer = ({ theme, toggleTheme }: IProps) => {
 
   var btnDarkModeIcon = '';
   if (theme == 'light') {
