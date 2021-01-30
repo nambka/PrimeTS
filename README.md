@@ -4,7 +4,8 @@ Create a web application that takes in a number and returns to the user the high
 [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](https://github.com/dwyl/repo-badges)
 [![Build Status](https://travis-ci.org/nambka/PrimeTS.png?branch=master)](https://travis-ci.org/nambka/PrimeTS)
 [![Documentation Status](https://readthedocs.org/projects/primets-2021/badge/?version=latest)](https://primets-2021.readthedocs.io/en/latest/?badge=latest)
-
+[![codecov](https://codecov.io/gh/nambka/PrimeTS/branch/master/graph/badge.svg?token=L6425M1PKQ)](https://codecov.io/gh/nambka/PrimeTS)
+![Known Vulnerabilities](https://snyk.io/test/github/nambka/PrimeTS/badge.svg)
 ![npm](https://img.shields.io/npm/v/npm)
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
 [![HitCount](http://hits.dwyl.com/nambka/PrimeTS.svg)](http://hits.dwyl.com/nambka/PrimeTS)
