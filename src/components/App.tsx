@@ -7,7 +7,8 @@ import PrimeForm from './PrimeForm';
 import PrimesForm from './PrimesForm';
 
 import { ThemeProvider } from 'styled-components';
-import {lightTheme, darkTheme, moonTheme, useDarkMode} from '../service/theme';
+import {lightTheme, darkTheme, moonTheme} from '../service/theme';
+import { useDarkMode } from '../components/DarkMode';
 import { GlobalStyle } from '../service/theme/global';
 
 const App = () => {
@@ -17,7 +18,7 @@ const App = () => {
   return (
     <ThemeProvider theme={theme === 'light' ? lightTheme : (theme === 'dark' ? darkTheme : moonTheme)}>    
       <GlobalStyle />
-      <Header theme={theme} toggleTheme={toggleTheme}/>
+      <Header />
       <main className="container-fluid text-center">
         <PrimeForm />
         <PrimesForm />
