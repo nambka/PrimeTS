@@ -1,4 +1,5 @@
 import React from 'react';
+import { sieve } from './Algo';
 
 // Render the input form to enter two numbers
 interface IProps {
@@ -48,24 +49,6 @@ class PrimesForm extends React.Component<IProps, IState> {
     const num2 = Number(this.state.inputLastNum)
     const max = num1 > num2 ? num1 : num2
     const min = max === num1 ? num2 : num1
-
-    function sieve(limit: number, initial: number): (string | number)[] {
-      var bools = [];
-      var primes = [];
-      for (let i = 1; i < limit; i++) { bools.push(true); }
-      for (let i = 1; i <= Math.sqrt(limit); i++) {
-        if (bools[i-2]) {
-          for (let j = i*2; j <= limit; j += i) {
-            bools[j-2] = false;
-          }
-        }
-      }
-      for (let i = 0; i < initial-2; i++) { bools[i] = false; }
-      for (let p = 0; p < bools.length; p++) {
-        if (bools[p]) { primes.push(p+2); }
-      }
-      return primes.length === 0 ? ['None in Range'] : primes
-    }
 
     this.setState({
       answer: sieve(max, min),
