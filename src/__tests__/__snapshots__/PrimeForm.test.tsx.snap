@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrimeForm:  has a title of "Prime Finder" 1`] = `
+<form
+  className="container-fluid nambk-container-input text-center"
+  id="frmFindHighestPrime"
+  onSubmit={[Function]}
+>
+  <h2
+    className="nambk-header"
+  >
+    Highest Prime
+  </h2>
+  <div
+    className="nambk-header-desc"
+  >
+    Lower than Input Number
+  </div>
+  <div>
+    <input
+      aria-label="Input Number"
+      autoFocus={true}
+      className="nambk-input"
+      id="inputNumber"
+      name="inputNumber"
+      onChange={[Function]}
+      placeholder="Enter a number"
+      style={
+        Object {
+          "width": "50%",
+        }
+      }
+      type="number"
+      value=""
+    />
+    <input
+      className="nambk-btn nambk-btn-primary"
+      id="btnFindHighestPrime"
+      type="submit"
+      value="Go"
+    />
+  </div>
+  <div
+    aria-readonly={true}
+    className="mt-3"
+    id="result"
+    style={
+      Object {
+        "minHeight": "2rem",
+      }
+    }
+  />
+</form>
+`;
+
+exports[`PrimeForm:  renders one form component 1`] = `
+<form
+  className="container-fluid nambk-container-input text-center"
+  id="frmFindHighestPrime"
+  onSubmit={[Function]}
+>
+  <h2
+    className="nambk-header"
+  >
+    Highest Prime
+  </h2>
+  <div
+    className="nambk-header-desc"
+  >
+    Lower than Input Number
+  </div>
+  <div>
+    <input
+      aria-label="Input Number"
+      autoFocus={true}
+      className="nambk-input"
+      id="inputNumber"
+      name="inputNumber"
+      onChange={[Function]}
+      placeholder="Enter a number"
+      style={
+        Object {
+          "width": "50%",
+        }
+      }
+      type="number"
+      value=""
+    />
+    <input
+      className="nambk-btn nambk-btn-primary"
+      id="btnFindHighestPrime"
+      type="submit"
+      value="Go"
+    />
+  </div>
+  <div
+    aria-readonly={true}
+    className="mt-3"
+    id="result"
+    style={
+      Object {
+        "minHeight": "2rem",
+      }
+    }
+  />
+</form>
+`;
+
+exports[`PrimeForm:  should render the form and components 1`] = `
+<form
+  className="container-fluid nambk-container-input text-center"
+  id="frmFindHighestPrime"
+  onSubmit={[Function]}
+>
+  <h2
+    className="nambk-header"
+  >
+    Highest Prime
+  </h2>
+  <div
+    className="nambk-header-desc"
+  >
+    Lower than Input Number
+  </div>
+  <div>
+    <input
+      aria-label="Input Number"
+      autoFocus={true}
+      className="nambk-input"
+      id="inputNumber"
+      name="inputNumber"
+      onChange={[Function]}
+      placeholder="Enter a number"
+      style={
+        Object {
+          "width": "50%",
+        }
+      }
+      type="number"
+      value=""
+    />
+    <input
+      className="nambk-btn nambk-btn-primary"
+      id="btnFindHighestPrime"
+      type="submit"
+      value="Go"
+    />
+  </div>
+  <div
+    aria-readonly={true}
+    className="mt-3"
+    id="result"
+    style={
+      Object {
+        "minHeight": "2rem",
+      }
+    }
+  />
+</form>
+`;

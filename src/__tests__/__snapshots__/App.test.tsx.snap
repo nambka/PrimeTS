@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App: renders components without errors 1`] = `
+<Component
+  theme={
+    Object {
+      "bodyBkg": "#F7F8F9",
+      "bodyTextColor": "#353637",
+      "footerBkg": "linear-gradient(150deg,#19a0ff,#2d1582)",
+      "footerTextColor": "#fff",
+      "formBkg": "#fff!important",
+      "formBkgHover": "#fff",
+      "formBorder": "1px solid #eaecef22",
+      "formBoxShadow": "0 5px 30px 0 rgba(0,0,0,.2)",
+      "formBoxShadowHover": "0 3px 10px 0 rgba(204,204,204,.8)",
+      "formHeaderDescColor": "#006647",
+      "formTransition": ".3s all ease",
+      "formTransitionHover": ".2s all ease",
+      "inputBkg": "#fff3",
+      "inputBorder": "1px solid #E6E8EA",
+      "inputBorderHover": "#F0B90B",
+      "resultBoxShadow": "inset 0 0 5px 0 rgba(0,0,0,.1)",
+    }
+  }
+>
+  <Memo(l) />
+  <Header />
+  <main
+    className="container-fluid text-center"
+  >
+    <PrimeForm />
+    <PrimesForm />
+  </main>
+  <Footer
+    theme="light"
+    toggleTheme={[Function]}
+  />
+</Component>
+`;

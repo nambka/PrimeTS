@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GlobalStyle:  renders with a DARK theme 1`] = `
+<head>
+  <style
+    data-styled="active"
+    data-styled-version="5.2.1"
+  >
+    *,*::after,*::before{box-sizing:border-box;}
+    body{background:#F7F8F9;color:#353637;font-family:BlinkMacSystemFont,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;-webkit-transition:all 0.25s linear;transition:all 0.25s linear;}
+    footer{background:linear-gradient(150deg,#19a0ff,#2d1582);color:#fff;}
+    form{background-color:#fff!important;border:1px solid #eaecef22;box-shadow:0 5px 30px 0 rgba(0,0,0,.2);-webkit-transition:.3s all ease;transition:.3s all ease;}
+    form:hover{background-color:#fff;border:1px solid #eaecef22;box-shadow:0 3px 10px 0 rgba(204,204,204,.8);-webkit-transition:.2s all ease;transition:.2s all ease;}
+    form .nambk-header-desc{color:#006647;}
+    input[type=number]{color:#353637;background-color:#fff3;border:1px solid #E6E8EA;}
+    input[type=number]:focus{border-color:#F0B90B;}
+    #result{box-shadow:inset 0 0 5px 0 rgba(0,0,0,.1);}
+    *,*::after,*::before{box-sizing:border-box;}
+    body{background:#111;color:#ccc;font-family:BlinkMacSystemFont,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;-webkit-transition:all 0.25s linear;transition:all 0.25s linear;}
+    footer{background:#000;color:#ccc;}
+    form{background-color:#000!important;border:1px solid #aaa3;box-shadow:0 0.5rem 1.2rem rgba(124,124,124,.2);-webkit-transition:.3s all ease;transition:.3s all ease;}
+    form:hover{background-color:#bbb1!important;border:1px solid #aaa3;box-shadow:2px 5px 10px 0 rgba(0,0,0,.2);-webkit-transition:.2s all ease;transition:.2s all ease;}
+    form .nambk-header-desc{color:#00c087;}
+    input[type=number]{color:#ccc;background-color:#ccc2;border:1px solid #555;}
+    input[type=number]:focus{border-color:#1274e0;}
+    #result{box-shadow:inset 0 0 5px 0 rgba(0,0,0,.3);}
+  </style>
+</head>
+`;
+
+exports[`GlobalStyle:  renders with a LIGHT theme 1`] = `
+<head>
+  <style
+    data-styled="active"
+    data-styled-version="5.2.1"
+  >
+    *,*::after,*::before{box-sizing:border-box;}
+    body{background:#F7F8F9;color:#353637;font-family:BlinkMacSystemFont,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;-webkit-transition:all 0.25s linear;transition:all 0.25s linear;}
+    footer{background:linear-gradient(150deg,#19a0ff,#2d1582);color:#fff;}
+    form{background-color:#fff!important;border:1px solid #eaecef22;box-shadow:0 5px 30px 0 rgba(0,0,0,.2);-webkit-transition:.3s all ease;transition:.3s all ease;}
+    form:hover{background-color:#fff;border:1px solid #eaecef22;box-shadow:0 3px 10px 0 rgba(204,204,204,.8);-webkit-transition:.2s all ease;transition:.2s all ease;}
+    form .nambk-header-desc{color:#006647;}
+    input[type=number]{color:#353637;background-color:#fff3;border:1px solid #E6E8EA;}
+    input[type=number]:focus{border-color:#F0B90B;}
+    #result{box-shadow:inset 0 0 5px 0 rgba(0,0,0,.1);}
+  </style>
+</head>
+`;
+
+exports[`GlobalStyle:  renders with a MOON theme 1`] = `
+<head>
+  <style
+    data-styled="active"
+    data-styled-version="5.2.1"
+  >
+    *,*::after,*::before{box-sizing:border-box;}
+    body{background:#F7F8F9;color:#353637;font-family:BlinkMacSystemFont,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;-webkit-transition:all 0.25s linear;transition:all 0.25s linear;}
+    footer{background:linear-gradient(150deg,#19a0ff,#2d1582);color:#fff;}
+    form{background-color:#fff!important;border:1px solid #eaecef22;box-shadow:0 5px 30px 0 rgba(0,0,0,.2);-webkit-transition:.3s all ease;transition:.3s all ease;}
+    form:hover{background-color:#fff;border:1px solid #eaecef22;box-shadow:0 3px 10px 0 rgba(204,204,204,.8);-webkit-transition:.2s all ease;transition:.2s all ease;}
+    form .nambk-header-desc{color:#006647;}
+    input[type=number]{color:#353637;background-color:#fff3;border:1px solid #E6E8EA;}
+    input[type=number]:focus{border-color:#F0B90B;}
+    #result{box-shadow:inset 0 0 5px 0 rgba(0,0,0,.1);}
+    *,*::after,*::before{box-sizing:border-box;}
+    body{background:#111;color:#ccc;font-family:BlinkMacSystemFont,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;-webkit-transition:all 0.25s linear;transition:all 0.25s linear;}
+    footer{background:#000;color:#ccc;}
+    form{background-color:#000!important;border:1px solid #aaa3;box-shadow:0 0.5rem 1.2rem rgba(124,124,124,.2);-webkit-transition:.3s all ease;transition:.3s all ease;}
+    form:hover{background-color:#bbb1!important;border:1px solid #aaa3;box-shadow:2px 5px 10px 0 rgba(0,0,0,.2);-webkit-transition:.2s all ease;transition:.2s all ease;}
+    form .nambk-header-desc{color:#00c087;}
+    input[type=number]{color:#ccc;background-color:#ccc2;border:1px solid #555;}
+    input[type=number]:focus{border-color:#1274e0;}
+    #result{box-shadow:inset 0 0 5px 0 rgba(0,0,0,.3);}
+    *,*::after,*::before{box-sizing:border-box;}
+    body{background:#01263f;color:#AABCCB;font-family:BlinkMacSystemFont,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;-webkit-transition:all 0.25s linear;transition:all 0.25s linear;}
+    footer{background:#012137;color:#AABCCB;}
+    form{background-color:#012137!important;border:1px solid #18365b;box-shadow:0 0.5rem 1.2rem rgba(4,76,124,.2);-webkit-transition:.3s all ease;transition:.3s all ease;}
+    form:hover{background-color:#bbb1!important;border:1px solid #18365b;box-shadow:2px 5px 10px 0 rgba(0,0,0,.3);-webkit-transition:.2s all ease;transition:.2s all ease;}
+    form .nambk-header-desc{color:#00D696;}
+    input[type=number]{color:#AABCCB;background-color:#ccd2;border:1px solid #256;}
+    input[type=number]:focus{border-color:#2ac;}
+    #result{box-shadow:inset 0 0 5px 0 rgba(0,0,0,.3);}
+  </style>
+</head>
+`;

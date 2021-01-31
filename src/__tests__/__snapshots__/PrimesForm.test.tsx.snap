@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrimesForm:  has a title of "Prime Numbers" 1`] = `
+<form
+  className="container-fluid nambk-container-input"
+  id="frmFindPrimes"
+  onSubmit={[Function]}
+>
+  <h2
+    className="nambk-header"
+  >
+    Prime Numbers
+  </h2>
+  <div
+    className="nambk-header-desc"
+  >
+    Between Two Numbers
+  </div>
+  <div>
+    <input
+      aria-label="Input Number"
+      className="nambk-input"
+      id="inputFirstNum"
+      max="9999999"
+      min="1"
+      name="inputFirstNum"
+      onChange={[Function]}
+      placeholder="Enter a number"
+      style={
+        Object {
+          "width": "33%",
+        }
+      }
+      type="number"
+      value={1}
+    />
+    <input
+      aria-label="Input Number"
+      className="nambk-input"
+      id="inputLastNum"
+      max="9999999"
+      min="1"
+      name="inputLastNum"
+      onChange={[Function]}
+      placeholder="Enter a number"
+      style={
+        Object {
+          "width": "33%",
+        }
+      }
+      type="number"
+      value={1000}
+    />
+    <input
+      className="nambk-btn nambk-btn-primary"
+      id="btnFindPrimes"
+      type="submit"
+      value="Go"
+    />
+  </div>
+  <div
+    className="mt-3"
+    id="result"
+    style={
+      Object {
+        "minHeight": "4rem",
+      }
+    }
+  >
+    Primes
+  </div>
+</form>
+`;
+
+exports[`PrimesForm:  renders one form component 1`] = `
+<form
+  className="container-fluid nambk-container-input"
+  id="frmFindPrimes"
+  onSubmit={[Function]}
+>
+  <h2
+    className="nambk-header"
+  >
+    Prime Numbers
+  </h2>
+  <div
+    className="nambk-header-desc"
+  >
+    Between Two Numbers
+  </div>
+  <div>
+    <input
+      aria-label="Input Number"
+      className="nambk-input"
+      id="inputFirstNum"
+      max="9999999"
+      min="1"
+      name="inputFirstNum"
+      onChange={[Function]}
+      placeholder="Enter a number"
+      style={
+        Object {
+          "width": "33%",
+        }
+      }
+      type="number"
+      value={1}
+    />
+    <input
+      aria-label="Input Number"
+      className="nambk-input"
+      id="inputLastNum"
+      max="9999999"
+      min="1"
+      name="inputLastNum"
+      onChange={[Function]}
+      placeholder="Enter a number"
+      style={
+        Object {
+          "width": "33%",
+        }
+      }
+      type="number"
+      value={1000}
+    />
+    <input
+      className="nambk-btn nambk-btn-primary"
+      id="btnFindPrimes"
+      type="submit"
+      value="Go"
+    />
+  </div>
+  <div
+    className="mt-3"
+    id="result"
+    style={
+      Object {
+        "minHeight": "4rem",
+      }
+    }
+  >
+    Primes
+  </div>
+</form>
+`;
+
+exports[`PrimesForm:  should render the form and components 1`] = `
+<form
+  className="container-fluid nambk-container-input"
+  id="frmFindPrimes"
+  onSubmit={[Function]}
+>
+  <h2
+    className="nambk-header"
+  >
+    Prime Numbers
+  </h2>
+  <div
+    className="nambk-header-desc"
+  >
+    Between Two Numbers
+  </div>
+  <div>
+    <input
+      aria-label="Input Number"
+      className="nambk-input"
+      id="inputFirstNum"
+      max="9999999"
+      min="1"
+      name="inputFirstNum"
+      onChange={[Function]}
+      placeholder="Enter a number"
+      style={
+        Object {
+          "width": "33%",
+        }
+      }
+      type="number"
+      value={1}
+    />
+    <input
+      aria-label="Input Number"
+      className="nambk-input"
+      id="inputLastNum"
+      max="9999999"
+      min="1"
+      name="inputLastNum"
+      onChange={[Function]}
+      placeholder="Enter a number"
+      style={
+        Object {
+          "width": "33%",
+        }
+      }
+      type="number"
+      value={1000}
+    />
+    <input
+      className="nambk-btn nambk-btn-primary"
+      id="btnFindPrimes"
+      type="submit"
+      value="Go"
+    />
+  </div>
+  <div
+    className="mt-3"
+    id="result"
+    style={
+      Object {
+        "minHeight": "4rem",
+      }
+    }
+  >
+    Primes
+  </div>
+</form>
+`;

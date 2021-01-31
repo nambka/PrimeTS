@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders nav items without errors 1`] = `
+<footer
+  className="gradient-half-primary-body-v1 py-4"
+  style={
+    Object {
+      "height": "calc(100% - 60px)",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row justify-content-md-between font-size-1 py-3"
+    >
+      <div
+        className="col-lg-3 mb-4 mb-lg-0"
+      >
+        <div
+          className="d-flex h-100 flex-column"
+        >
+          <div
+            className="d-flex align-items-center mb-4"
+          >
+            <img
+              alt="Landing Page Logo"
+              src={null}
+              width="32"
+            />
+            <span
+              className="h5 mb-0 ml-3"
+            >
+              Powered by Nambk
+            </span>
+          </div>
+          <p
+            className="font-size-0-75"
+          >
+            A brand new journey to the beautiful angles of this world. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+          </p>
+          <div
+            className="d-flex align-items-center"
+          >
+            <a
+              className="btn btn-xss btn-soft-light mr-2"
+              href="https://github.com/nambka/PrimeTS"
+            >
+              <i
+                className="fa fa-cogs mr-1"
+              />
+              Preferences
+            </a>
+            <button
+              aria-label="Dark/Light Mode"
+              className="btn btn-sm btn-icon btn-soft-light"
+              data-original-title=""
+              data-title="Day/Night Mode"
+              data-toggle="tooltip"
+              id="btnDarkModeFooter"
+              onClick={[Function]}
+            >
+              <i
+                className="fa fa-moon-o"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+`;

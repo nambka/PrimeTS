@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header:  renders items without errors 1`] = `
+<nav
+  aria-label="Local"
+  className="js touch css-sticky ac-ln-sticking"
+  dir="ltr"
+  id="ac-localnav"
+  lang="en-US"
+  role="navigation"
+>
+  <div
+    className="ac-ln-wrapper"
+  >
+    <div
+      className="ac-ln-background"
+    />
+    <div
+      className="ac-ln-content"
+    >
+      <div
+        className="ac-ln-title"
+      >
+        <a
+          className="border-radius-50"
+          href="https://github.com/nambka/PrimeTS"
+        >
+          <img
+            alt="logo"
+            src={null}
+          />
+        </a>
+      </div>
+      <div
+        className="ac-ln-menu"
+      >
+        <a
+          className="ac-ln-menucta-anchor ac-ln-menucta-anchor-open"
+          href="https://github.com/nambka/PrimeTS"
+          id="ac-ln-menustate-open"
+        >
+          <span
+            className="ac-ln-menucta-anchor-label"
+          >
+            Local Nav Open Menu
+          </span>
+        </a>
+        <a
+          className="ac-ln-menucta-anchor ac-ln-menucta-anchor-close"
+          href="https://github.com/nambka/PrimeTS"
+          id="ac-ln-menustate-close"
+        >
+          <span
+            className="ac-ln-menucta-anchor-label"
+          >
+            Local Nav Close Menu
+          </span>
+        </a>
+        <div
+          className="ac-ln-menu-tray"
+        >
+          <ul
+            className="ac-ln-menu-items"
+          >
+            <li
+              className="ac-ln-menu-item"
+            >
+              <span
+                aria-current="page"
+                aria-disabled="true"
+                className="ac-ln-menu-link current"
+                role="link"
+              >
+                Home
+              </span>
+            </li>
+            <li
+              className="ac-ln-menu-item"
+            >
+              <a
+                className="ac-ln-menu-link"
+                href="https://github.com/nambka/PrimeTS"
+              >
+                Design
+              </a>
+            </li>
+            <li
+              className="ac-ln-menu-item"
+            >
+              <a
+                className="ac-ln-menu-link"
+                href="https://github.com/nambka/PrimeTS"
+              >
+                Products
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="ac-ln-actions"
+        >
+          <div
+            aria-hidden="true"
+            className="ac-ln-action ac-ln-action-menucta"
+          >
+            <label
+              className="ac-ln-menucta"
+              htmlFor="ac-ln-menustate"
+            >
+              <span
+                className="ac-ln-menucta-chevron"
+              />
+            </label>
+          </div>
+          <div
+            className="ac-ln-action ac-ln-action-button"
+          >
+            <a
+              className="ac-ln-button mr-3"
+              href="https://github.com/nambka/PrimeTS"
+            >
+              Login 
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
