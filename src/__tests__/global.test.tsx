@@ -18,22 +18,22 @@ describe('GlobalStyle: ', () => {
 
 })
 
-xit('renders with a LIGHT theme', () => {
-  // const localStorageMock = {
-  //   getItem: jest.fn(),
-  //   setItem: jest.fn(),
-  //   clear: jest.fn()
-  // };
-  // global.localStorage = localStorageMock;
+// it('renders with a LIGHT theme', () => {
+//   // const localStorageMock = {
+//   //   getItem: jest.fn(),
+//   //   setItem: jest.fn(),
+//   //   clear: jest.fn()
+//   // };
+//   // global.localStorage = localStorageMock;
 
-  // global.localStorage = {
-  //   getItem: () => undefined,
-  // };
+//   // global.localStorage = {
+//   //   getItem: () => undefined,
+//   // };
 
-  jest.spyOn(window.localStorage.__proto__, 'setItem');
-  expect(localStorage.store).toEqual('light');
+//   jest.spyOn(window.localStorage.__proto__, 'setItem');
+//   expect(localStorage.store).toEqual('light');
 
-});
+// });
 
 // // https://www.npmjs.com/package/jest-localstorage-mock
 // it('should save to localStorage', () => {
