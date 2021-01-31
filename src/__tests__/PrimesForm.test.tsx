@@ -122,7 +122,7 @@ describe('PrimesForm: ', () => {
     expect(wrapper.find('input[type="number"]').at(1).prop('value')).toEqual(22);
   });
 
-  it('simulates form submit event', () => {
+  it('simulates form submit event (input1 < input2)', () => {
     const testValues = {
       inputFirstNum: '1',
       inputLastNum: '10',
@@ -134,11 +134,6 @@ describe('PrimesForm: ', () => {
 
     wrapper.find('form').simulate('submit', fakeEvent);
     expect(mockSubmit).toBeTruthy();
-    // expect(testValues.handleSubmit).toHaveBeenCalledTimes(1);
-    // expect(testValues.handleSubmit).toBeCalledWith({
-    //     inputFirstNum: testValues.inputFirstNum, 
-    //     inputLastNum: testValues.inputLastNum
-    // });
   });
-
+  
 })
