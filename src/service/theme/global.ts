@@ -56,4 +56,4 @@ export const GlobalStyle = createGlobalStyle`
     box-shadow: ${({ theme }) => theme.resultBoxShadow};
   }
 `
-// export default GlobalStyle;
+export default GlobalStyle;
